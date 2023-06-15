@@ -23,7 +23,7 @@ public class LoginResStep {
 	
 	static Logger log=Logger.getLogger(LoginResStep.class.getName());
 	
-	
+	//ok
 	@Given("^Click on register$")
 	public void registerClick()
 	{
