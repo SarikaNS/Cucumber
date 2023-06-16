@@ -12,5 +12,5 @@ Feature: To login with valid and invalid credentials
    
     Examples: 
       | username                | password          	| 
-      | sa345raaaa@gmail.com    |     krishhhhzzzzz   | 
+      | sa888@gmail.com         |     krishhhhzzzzz   | 
       | a123@gmail.com          |     bbbbv         	| 

@@ -21,13 +21,13 @@ import cucumber.api.java.en.When;
 
 public class LoginResStep {
 	
-	static Logger log=Logger.getLogger(LoginResStep.class.getName());
+	static Logger log=Logger.getLogger(LoginResStep.class);
 	
-	//ok
+	
 	@Given("^Click on register$")
 	public void registerClick()
 	{
-	   Common.driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+	   Common.driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		
 	   Common.driver.findElement(By.xpath("//a[text()='Register']")).click();
 	}
