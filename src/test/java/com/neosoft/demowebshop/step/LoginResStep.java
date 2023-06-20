@@ -21,7 +21,9 @@ import cucumber.api.java.en.When;
 
 public class LoginResStep {
 	
+	
 	static Logger log=Logger.getLogger(LoginResStep.class);
+	//push 1
 	
 	
 	@Given("^Click on register$")
